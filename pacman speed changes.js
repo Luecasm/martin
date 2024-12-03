@@ -13533,3 +13533,20 @@ window.addEventListener("load", function() {
     executive.init();
 });
 })();
+{
+  "name": "pacman-voting",
+  "version": "1.0.0",
+  "description": "Pac-Man voting system",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4"
+  }
+}
+"scripts": {
+  "start": "node server.js"
+}
+
